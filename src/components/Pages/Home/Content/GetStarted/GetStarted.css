@@ -1,0 +1,58 @@
+.getstarted-Container
+{
+  display: flex;
+  justify-content: space-between;
+  padding-top: 100px;
+}
+
+
+.getstarted-block
+{
+  display: grid;
+  gap: 50px;
+}
+
+
+.getstarted-text
+{
+  display: grid;
+  gap: 20px;
+  max-width: 555px;
+}
+
+.easyuse-text
+{
+  color: #0B132A;
+  font-size: 50px;
+  line-height: 70px;
+  font-weight: bold;
+
+}
+
+.provide-text
+{
+    color: #4F5665;
+    font-size: 16px;
+    line-height: 30px;
+}
+
+.getstarted-image
+{
+ 
+  max-width: 611px;
+  max-height: 382px;
+}
+
+.getstarted-button
+{
+  color: white;
+  background: #F53838;
+  padding: 17px 77px;
+  border-radius: 10px;
+
+  box-shadow: 0 4px 10px rgba(245, 56, 56, 0.6); 
+  transition: box-shadow 0.3s ease, transform 0.3s ease; 
+  border: none; 
+  cursor: pointer;
+
+}
