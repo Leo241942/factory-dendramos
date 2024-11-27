@@ -1,0 +1,45 @@
+.statistics-container
+{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+    max-width: 1140px;
+    min-height: 200px;
+    border-radius: 10px;
+    background: white;
+    box-shadow: 0px 10px 50px rgba(245, 56, 56, 0.1); 
+}
+
+.statistic
+{
+  display: flex;
+  gap: 36px;
+  align-items: center;
+}
+
+.statistic img
+{
+    max-width: 50px;
+    max-height: 50px;
+}
+
+.statistics-text
+{
+    display: flex;
+    gap: 5px;
+    flex-direction: column;
+}
+
+
+.statistics-text h1
+{
+    font-size: 25px;
+    color: #0B132A;
+    font-weight: bold;
+}
+
+.statistics-text p
+{
+   color: #4F5665;
+   font-size: 25px;
+}
