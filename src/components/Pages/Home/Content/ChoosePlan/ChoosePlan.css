@@ -1,0 +1,101 @@
+.choooseplan-container 
+{
+  display: flex;
+  gap: 60px;
+  padding: 100px 0px;
+  flex-direction: column;
+}
+
+.choooseplan-text 
+{
+  display: grid;
+  gap: 20px;
+  justify-items: center;
+}
+
+.choooseplan-text p 
+{
+  font-size: 16px;
+  line-height: 30px;
+  color: #4F5665;
+}
+
+.plans-container 
+{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.plan-container 
+{
+  display: flex;
+  flex-direction: column;
+  padding: 50px 0px;
+  color: white;
+  background: white;
+  border-radius: 10px;
+  border: none;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 330px;
+  min-height: 650px;
+  max-height: 800px;
+}
+
+.plan-block 
+{
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  align-items: center;
+}
+
+.plan-block img 
+{
+  max-width: 144px;
+  max-height: 165px;
+}
+
+.type-plan 
+{
+  font-size: 18px;
+  color: #0B132A;
+  line-height: 30px;
+  font-weight: bold;
+}
+
+.plan-property 
+{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.plan-conrol
+{
+  display: grid;
+  justify-items: center;
+  gap: 20px;
+}
+
+
+.plan-conrol p
+{
+  color: #0B132A;
+  font-size: 25px;
+  line-height: 30px;
+}
+
+.plan-conrol button
+{
+  color: #F53838;
+  background: none;
+  border-radius: 50px;
+  font-size: 25px;
+  line-height: 30px;
+  min-width: 177.88px;
+  min-height: 45px;
+  font-size: 16px;
+  font-weight: bold;
+  border: 2px solid #F53838;
+}

@@ -3,6 +3,7 @@ header
     width: 100vw;
     display: grid;
     max-width: var(--max-width-content);
+    padding-top: 20px;
 }
 
 .header-container 

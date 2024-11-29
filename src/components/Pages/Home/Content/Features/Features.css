@@ -1,0 +1,47 @@
+.features-container
+{
+    display: flex;
+    flex-direction: row;
+    padding: 100px 0px;
+    gap: 169px;
+}
+
+.features-container img 
+{
+    max-width: 508px;
+    max-height: 414px;
+}
+
+.features-block
+{   
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.features-block h1 
+{
+    font-size: 35px;
+    font-weight: bold;
+    line-height: 50px;
+    color:#0B132A;
+    max-width: 383px;
+}
+
+
+.features-block p 
+{
+    font-size: 16px;
+    line-height: 30px;
+    color:#4F5665;
+    max-width: 427px;
+}
+
+.features-properties
+{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+
