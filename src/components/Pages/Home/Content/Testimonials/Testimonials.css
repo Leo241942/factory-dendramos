@@ -1,0 +1,31 @@
+.testimonials-container
+{
+    display: flex;
+    flex-direction: column;
+    padding: 50px 0px;
+    gap: 60px;
+}
+
+.testimonials-text
+{
+    display: grid;
+    gap: 20px;
+    justify-items: center;
+    text-align: center;
+}
+
+.testimonials-text h1
+{
+    color: #0B132A;
+    max-width: 447.81px;
+    line-height: 50px;
+    font-size: 35px;
+}
+
+.testimonials-text p
+{
+    color: #4F5665;
+    max-width: 555px;
+    line-height: 30px;
+    font-size: 16px;
+}

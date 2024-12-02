@@ -1,0 +1,50 @@
+.hugeglobal-container
+{
+    display: flex;
+    flex-direction: column;
+    padding: 50px 0px;
+    gap: 140px;
+}
+
+.hugeglobal-text
+{
+    display: grid;
+    gap: 20px;
+    justify-items: center;
+    text-align: center;
+}
+
+.hugeglobal-text h1
+{
+    color: #0B132A;
+    max-width: 383.41px;
+    line-height: 50px;
+    font-size: 35px;
+}
+
+.hugeglobal-text p
+{
+    color: #4F5665;
+    max-width: 555px;
+    line-height: 30px;
+    font-size: 16px;
+}
+
+.hugeglobal-map-container
+{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.hugeglobal-map
+{
+  max-width: 1060px;
+  max-height: 537.77px;
+}
+
+.sponsored
+{
+    max-width: 1135px;
+    max-height: 208.32px;
+}

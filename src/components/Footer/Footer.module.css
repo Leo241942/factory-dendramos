@@ -1,0 +1,98 @@
+.footerContainer
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 100px 0px;
+}
+
+.footerleftPanel
+{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.logoContainer
+{
+    display: flex;
+    flex-direction: row;
+    gap: 6px;
+    align-items: center;
+}
+
+.logoContainer img
+{
+    max-width: 35px ;
+    max-height: 35px ;
+}
+
+.logoContainer h1
+{
+  font-size: 20px;
+  color: #0B132A;
+}
+
+.footerDescription
+{
+    font-size: 16px;
+    line-height: 30px;
+    color: #4F5665;
+    max-width: 340px;
+}
+
+.footerButtons
+{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.footerButton
+{
+   font-size: 33px;
+   border-radius: 100%;
+   color: #F53838;
+   padding: 10px;
+   background: white;
+   border: none;
+}
+
+.footerRights
+{
+    font-size: 16px;
+    color: #AFB5C0;
+}
+
+.footerrightPanel
+{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 126px;
+}
+
+.footerListContainer
+{   
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.footerListContainer h1
+{
+    font-size: 18px;
+    color: #0B132A;
+}
+
+.lists
+{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.lists p
+{
+    color: #4F5665;
+    font-size:16px ;
+}

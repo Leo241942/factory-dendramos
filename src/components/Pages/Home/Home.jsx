@@ -1,6 +1,7 @@
 import { Fragment} from "react";
 import Header from "../../Header/Header";
 import Content from "./Content/Сontent";
+import Foooter from "../../Footer/Footer";
 
 export default function HOME() 
 {
@@ -8,6 +9,7 @@ export default function HOME()
    <Fragment>
       <Header/>
       <Content/>
+      <Foooter/>
     </Fragment>
   );
 }
