@@ -30,6 +30,15 @@ const sliderData =
     userImage: "/images/slider/KimYoungJou.png",
     ratingImage: "/images/slider/rating.png",
   },
+
+  {
+    name: "Kim Young Jou",
+    location: "Seoul, South Korea",
+    rating: 4.5,
+    comment: "This is very unusual for my business that currently requires a virtual private network that has high security.",
+    userImage: "/images/slider/KimYoungJou.png",
+    ratingImage: "/images/slider/rating.png",
+  }
 ];
 
 const Slider = () => {
@@ -37,18 +46,28 @@ const Slider = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
 
   const handleNext = () => {
-    setCurrentIndex((prevIndex) => (prevIndex + 1) % sliderData.length);
+    setCurrentIndex((prevIndex) => {
+      const newIndex = (prevIndex + 1) % sliderData.length; // Увеличиваем индекс
+      console.log("Next Index (calculated):", newIndex);
+      return newIndex;
+    });
   };
   
   const handlePrev = () => {
-    setCurrentIndex((prevIndex) => (prevIndex - 1 + sliderData.length) % sliderData.length);
+    setCurrentIndex((prevIndex) => {
+      const newIndex = (prevIndex - 1 + sliderData.length) % sliderData.length; // Уменьшаем индекс
+      console.log("Prev Index (calculated):", newIndex);
+      return newIndex;
+    });
   };
+  
 
   return (
     <div className={styles.sliderContainer}>
-      <div className={styles.slidersContainer}>
-        {sliderData.map((slide, index) => (
-          <div className={styles.testimonialCard} key={index}>
+      <div className={styles.slidersContainer} style={{ transform: `translateX(-${currentIndex * 30}%)` }}>
+        {sliderData.map((slide, index) => 
+        (
+          <div className={`${styles.testimonialCard} ${index === currentIndex ? styles.active : ""}`} key={index}>
             <div className={styles.userContainer}>
               <div className={styles.userInfoContainer}>
                 <img className={styles.logoUser} src={slide.userImage} alt={`user ${slide.name}`} />
@@ -81,8 +100,8 @@ const Slider = () => {
         </div>
 
         <div className={styles.sliderButtos}>
-          <button onClick={handleNext} className={styles.sliderNextButton}><i class="ri-arrow-left-line"></i></button>
-          <button onClick={handlePrev} className={styles.sliderPrevButton}><i class="ri-arrow-right-line"></i></button>
+          <button  onClick={handlePrev} className={styles.sliderPrevButton} ><i class="ri-arrow-left-line"></i></button>
+          <button  onClick={handleNext}  className={styles.sliderNextButton} ><i class="ri-arrow-right-line"></i></button>
         </div>
       </div>
     </div>

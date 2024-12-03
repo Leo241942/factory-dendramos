@@ -16,6 +16,8 @@ a
 :root
 {
   --max-width-content:1200px;
+  --hover-text:#F53838;
+  --button-hover-shadow: 0px 4px 6px #F53855;
 }
 
 main
@@ -31,4 +33,5 @@ body
     justify-content: center;
     margin: auto;
     background: #F6F6F6;
+    overflow-x: hidden;
 }

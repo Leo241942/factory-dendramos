@@ -58,6 +58,13 @@
    border: none;
 }
 
+.footerButton:hover
+{
+    box-shadow: var(--button-hover-shadow);
+    color:white;
+    background: #F53855;
+}
+
 .footerRights
 {
     font-size: 16px;
@@ -94,5 +101,12 @@
 .lists p
 {
     color: #4F5665;
-    font-size:16px ;
+    font-size:16px;
+    cursor: pointer;
+}
+
+
+.lists p:hover
+{
+   color:var(--hover-text); 
 }

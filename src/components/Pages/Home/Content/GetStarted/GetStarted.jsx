@@ -3,7 +3,7 @@ import './GetStarted.css';
 export default function GetStarted() 
 {
   return (
-    <div className="getstarted-Container">
+    <div className="getstarted-Container" id='getstarted'>
      
       <div className="getstarted-block">
         <div className="getstarted-text">
