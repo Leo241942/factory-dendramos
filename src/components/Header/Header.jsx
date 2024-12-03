@@ -12,10 +12,10 @@ export default function Header()
        </div>
 
        <nav>
-         <a href='#'>About</a>
-         <a href='#'>Features</a>
-         <a href='#'>Fricing</a>
-         <a href='#'>Testimonials</a>
+         <a href='#getstarted' >About</a>
+         <a href='#features'>Features</a>
+         <a href='#choooseplan'>Fricing</a>
+         <a href='#testimonials'>Testimonials</a>
        </nav>
       
        

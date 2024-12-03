@@ -7,7 +7,7 @@ export default function ChoosePlan()
   const standardPlan = ["Unlimited Bandwitch", "Encrypted Connection", "Yes Traffic Logs", "Works on All Devices", "Connect Anyware"];
   const premiumPlan = ["Unlimited Bandwitch", "Encrypted Connection", "Yes Traffic Logs", "Works on All Devices", "Connect Anyware", "Get New Features"];
   return (
-    <div className="choooseplan-container">
+    <div className="choooseplan-container" id="choooseplan">
 
       <div className="choooseplan-text">
         <h1>Choose Your Plan</h1>

@@ -99,3 +99,11 @@
   font-weight: bold;
   border: 2px solid #F53838;
 }
+
+
+.plan-conrol button:hover
+{
+  color: white;
+  background:#F53838 ;
+  box-shadow: var(--button-hover-shadow);
+}
