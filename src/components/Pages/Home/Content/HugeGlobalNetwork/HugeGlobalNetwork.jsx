@@ -1,3 +1,4 @@
+import CustomMap from "./CustomMap/CustomMap";
 import "./HugeGlobalNetwork.css"
 
 export default function HugeGlobalNetwork() 
@@ -10,7 +11,7 @@ export default function HugeGlobalNetwork()
          </div>
    
          <div className="hugeglobal-map-container">
-           <img className="hugeglobal-map" srcSet="/images/hugeglobalnetwork/hugeGlobal.png" alt="map"/>
+           <CustomMap/>
            <img className="sponsored" srcSet="/images/hugeglobalnetwork/sponsored.png"  alt="sponsored"/>
          </div>
       </div>
